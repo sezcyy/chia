@@ -61,7 +61,7 @@ python3 -m venv venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 pip install -r requirements-notification.txt
-wget https://raw.githubusercontent.com/overlocustr/chia/main/config.yaml
+wget https://raw.githubusercontent.com/sezcyy/chia/main/config.yaml
 sleep 1
 . ./venv/bin/activate
 sleep 1
@@ -76,7 +76,7 @@ echo -e "${RED}Plotlama islemi basladi!!${ENDCOLOR}"
 sleep 3
 deactivate
 cd /root/hdd/swardest
-wget https://raw.githubusercontent.com/overlocustr/chia/main/auto.sh
+wget https://raw.githubusercontent.com/sezcyy/chia/main/auto.sh
 chmod 777 auto.sh
 sleep 1
 cd
